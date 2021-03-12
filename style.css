@@ -12,10 +12,10 @@ body {
 /* Main Div's */
 .sidebar {
   width: 30%;
-  background-color: #6B54B6;
+  background-color: #6b54b6;
 }
 .data_div {
-  background: #1B0F23;
+  background: #1b0f23;
   width: 70%;
 }
 /* User Edit Profile  */
@@ -213,11 +213,16 @@ button {
     min-width: 90%;
     padding: 5px 10px;
   }
+  .user_info {
+    margin-top: 0 !important;
+    /* min-width: 0%; */
+  }
   /* .flex-col-md {
     flex-direction: column !important;
   } */
   /* User View Profile */
-  .user_info, .user_edit_info {
+
+  .user_edit_info {
     border-radius: 5px;
   }
 
@@ -286,7 +291,6 @@ button {
   .sm-flex-direction-coloumn div input {
     width: 80%;
   }
-  
 }
 
 /* .user_info {

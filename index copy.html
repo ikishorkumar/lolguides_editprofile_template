@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- Side bar navigation -->
+      <div class="sidebar">
+        <!-- Here We Will Include Our Own Side bar -->
+        <h2 style="color: white">Side Bar nav</h2>
+      </div>
+      <!-- Start of Data Div -->
+      <div class="data_div d-flex justify-content-space-around">
+        <!-- Start of Edit Profile Card -->
+        <div class="user_edit_info">
+          <div class="d-flex justify-content-between align-items-center">
+            <h4 class="text-left">Edit Profile</h4>
+            <button class="btn setting-button">Settings</button>
+          </div>
+          <hr class="mb-5" />
+          <div >
+            <h4 class="text-left">USER INFORMATION</h4>
+          </div>
+          <div >
+            <div
+              class="row py-15 mb-2 sm-flex-direction-coloumn flex-col-md d-flex justify-content-between"
+            >
+              <div class="col-md-6">
+                <label class="labels">Username</label>
+                <br />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="user name"
+                  value=""
+                />
+              </div>
+              <div class="col-md-6">
+                <label class="labels">Email address</label>
+
+                <br />
+                <input
+                  type="text"
+                  class="form-control"
+                  value=""
+                  placeholder="email"
+                />
+              </div>
+            </div>
+            <div
+              class="row py-15 mb-2 sm-flex-direction-coloumn flex-col-md d-flex justify-content-between"
+            >
+              <div class="col-md-6">
+                <label class="labels">First name</label>
+
+                <br />
+
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="first name"
+                  value=""
+                />
+              </div>
+              <div class="col-md-6">
+                <label class="labels">Last name</label>
+
+                <br />
+                <input
+                  type="text"
+                  class="form-control"
+                  value=""
+                  placeholder="last name"
+                />
+              </div>
+            </div>
+          </div>
+          <hr  />
+          <div >
+            <h4 class="text-left">CONTACT INFORMATION</h4>
+          </div>
+          <div class="row py-15 mt-3">
+            <div class="col-md-12">
+              <label class="labels">Address</label>
+              <br /><input
+                type="text"
+                class="form-control"
+                placeholder="enter address"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="row py-15 flex-col-md sm-flex-direction-coloumn flex-wrap-warp d-flex mt-3"
+          >
+            <div class="col-md-4">
+              <label class="labels">City</label>
+              <br />
+              <input
+                type="text"
+                class="form-control"
+                value=""
+                placeholder="city"
+              />
+            </div>
+            <div class="col-md-4">
+              <label class="labels">Country</label>
+              <br />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="country"
+                value=""
+              />
+            </div>
+
+            <div class="col-md-4">
+              <label class="labels">Postal Code</label
+              ><input
+                type="text"
+                class="form-control"
+                value=""
+                placeholder="148"
+              />
+            </div>
+          </div>
+
+          <hr  />
+          <div >
+            <h4 class="text-left">ABOUT ME</h4>
+          </div>
+          <div class="row py-15 mt-3">
+            <div class="col-md-12">
+              <label class="labels">About me</label>
+              <br />
+              <textarea
+                name="about"
+                id="textarea"
+                placeholder="hi , i am front end developer"
+                class="form-control"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+          <div class="text-align-center">
+            <button class="btn update-button" type="button">
+              Update Profile
+            </button>
+          </div>
+        </div>
+        <!-- End of Edit Profile -->
+        <!-- Start Of User Info  -->
+        <div class="user_info">
+          <div>
+            <div>
+              <img src="./1.png" alt="Image- Background" width="100%" />
+            </div>
+            <div
+              class="connect-btn-bar d-flex align-items-center justify-content-between"
+            >
+              <button class="btn profile-button-connect">Connect</button>
+              <img
+                class="img-avatar"
+                src="./1.png"
+                alt="Image- Background"
+                width="100"
+                height="100"
+              />
+              <button class="btn profile-button-message">Message</button>
+            </div>
+
+            <div class="d-flex social-connects justify-content-space-around">
+              <div >
+                <h3>128</h3>
+                <p class="mt-0">Friends</p>
+              </div>
+              <div >
+                <h3>128</h3>
+                <p class="mt-0">Photos</p>
+              </div>
+              <div >
+                <h3>128</h3>
+                <p class="mt-0">Comments</p>
+              </div>
+            </div>
+
+            <div class="text-align-center">
+              <div class="mt-0">
+                <div class="mt-0">
+                  <h4><strong class="mt-0">My name</strong>, 27</h4>
+                  <p class="mt-0">City, Country</p>
+                </div>
+              </div>
+              <div class=" ">
+                <div class="d-flex justify-content-center">
+                  <h4 class="mt-0">Position -</h4>
+                  <h4 class="mt-0">Company name</h4>
+                </div>
+              </div>
+              <div >
+                <div class="mt-0">
+                  <h3>University Name</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of User  Info -->
+      </div>
+      <!-- End of Data Div -->
+    </div>
+  </body>
+</html>
